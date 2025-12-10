@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bigform">
+
+        <div class="left-form">
+
+            <h2>WELCOME TO THE FRANKLINE BANKING INSTITUTE</h2>
+            <div style="display: block;
+            width: 60px;
+            height: 50px;
+            border-radius: 10px;
+            border:1px solid rgb(75, 71, 71);">
+                <h1 style="text-align: center;">T<span style="color: brown;" >.</span></h1>
+            </div>
+        </div>
+        <div class="right-form">
+            <h2>Register now</h2>
+            <form action=""> 
+                <div>
+                    <label for="email" id="email-label">Email:</label><br>
+                   <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div>
+                    <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div>
+                    <label for="password">Password:</label><br>
+                    <div style="position: relative; display: flex; align-items: center;">
+                        <input type="password" id="password" name="password" required style="flex:1;">
+                        <span id="toggle-password" style="position: absolute; right: 10px; cursor: pointer;">
+                            <!-- Eye SVG icon -->
+                            <svg id="eye-password" xmlns="http://www.w3.org/2000/svg" width="15" height="20" fill="none" viewBox="0 0 24 24" stroke="gray"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                        </span>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="confirm-password">Confirm Password:</label><br>
+                    <div style="position: relative; display: flex; align-items: center;">
+                        <input type="password" id="confirm-password" name="confirm-password" required style="flex:1;">
+                        <span id="toggle-confirm-password" style="position: absolute; right: 10px; cursor: pointer;">
+                            <!-- Eye SVG icon -->
+                            <svg id="eye-confirm-password" xmlns="http://www.w3.org/2000/svg" width="15" height="20" fill="none" viewBox="0 0 24 24" stroke="gray"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                        </span>
+                    </div>
+                </div>
+                <button type="submit">Register</button>
+            </form> 
+        </div>
+    </div>    
+    <script src="script.js"></script>
+
+
+
+
+</body>
+</html>
