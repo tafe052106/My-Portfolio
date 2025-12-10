@@ -100,3 +100,20 @@ button {
 button:hover {
     background-color: darkred;
 }
+@media screen and (max-width: 768px) 
+{
+    .bigform {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .right-form {
+        border-left: none;
+        border-top: 1px solid grey;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 16px;
+        margin-top: 20px;
+    }
+    
+    
+}
